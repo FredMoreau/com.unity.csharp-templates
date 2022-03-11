@@ -1,0 +1,25 @@
+using UnityEngine;
+using UnityEditor;
+
+namespace MyProject
+{
+    public class #SCRIPTNAME# : EditorWindow
+    {
+        // Add your properties here
+        
+
+        // Add menu named "#SCRIPTNAME#" to the Window menu
+        [MenuItem("Window/#SCRIPTNAME#")]
+        static void Init()
+        {
+            // Get existing open window or if none, make a new one:
+            #SCRIPTNAME# window = (#SCRIPTNAME#)EditorWindow.GetWindow<#SCRIPTNAME#>();
+            window.Show();
+        }
+
+        void OnGUI()
+        {
+        
+        }
+    }
+}

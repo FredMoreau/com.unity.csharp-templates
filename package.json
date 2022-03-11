@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.csharp-templates",
+  "displayName": "C# Templates",
+  "version": "0.1.0-preview.1",
+  "unity": "2021.2",
+  "description": "A collection of C# script templates.",
+  "keywords": [
+    "unity",
+    "script",
+    "templates"
+  ]
+}
